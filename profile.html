@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+            color: #fff;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 50px;
+        }
+        .profile-content {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 20px auto;
+            border-radius: 50%;
+            background: url('https://img.freepik.com/premium-vector/cartoon-male-teacher-presenting-pose-91_905719-2908.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        .profile-details {
+            text-align: center;
+        }
+        .profile-details h2 {
+            margin-top: 0;
+        }
+        .profile-details p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#profile">Profile</a>
+    </div>
+
+    <div class="container">
+        <div class="profile-content">
+            <div class="profile-picture"></div>
+            <div class="profile-details">
+                <h2>John Marshall</h2>
+                <p><strong>Email:</strong> John.marshall@example.com</p>
+                <p><strong>Address:</strong> Unit 4446 Box 8926, DPO AE 74743</p>
+                <p><strong>Birthday:</strong> 10/07/2004</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
