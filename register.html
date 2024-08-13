@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar</title>
+    <link href="register.css" rel="stylesheet">
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="profile.html">Profile</a>
+        <a href="register.html">Register</a>
+    </div>
+
+    <div class="flex-container">
+        <div class="container">
+            <h2>Register User</h2>
+            <form id="registrationForm">
+                <label>Username</label>
+                <input type="text" id="userName" name="userName" required />
+                
+                <label>Password</label>
+                <input type="password" id="password" name="password" required />
+              
+                <label>Email</label>
+                <input type="email" id="email" name="email" required />
+   
+                <label>Address</label>
+                <textarea id="address" name="address" rows="4" cols="50" required></textarea>
+  
+                <label>Birthday</label>
+                <input type="date" id="birthday" name="birthday" required />
+      
+                <input type="button" value="Submit" onclick="saveUserData()">
+            </form>
+        </div>
+        <!-- delete -->
+        <div class="container">
+            <h2>Delete User</h2>
+            <form>
+                <label>Username</label>
+                <input type="text" id="deleteUserName" name="deleteUserName" required />
+                <input type="button" value="Submit" onclick="deleteUserData()">
+            </form>
+        </div>
+        <!-- display -->
+        <div class="container">
+            <h2>Display User</h2>
+            <form>
+                <label>Username</label>
+                <input type="text" id="displayUserName" name="displayUserName" required />
+                <input type="button" value="Submit" onclick="getUserData()">
+            </form>
+        </div> 
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>

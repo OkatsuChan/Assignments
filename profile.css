@@ -1,0 +1,26 @@
+
+.profile-content {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+    background: url('https://img.freepik.com/premium-vector/cartoon-male-teacher-presenting-pose-91_905719-2908.jpg') no-repeat center center;
+    background-size: cover;
+}
+.profile-details {
+    text-align: center;
+}
+.profile-details h2 {
+    margin-top: 0;
+}
+.profile-details p {
+    margin: 10px 0;
+}
