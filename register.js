@@ -50,6 +50,17 @@ class UserManager{
 
     deleteUserData() {
         let userName = document.getElementById("deleteUserName").value;
+
+        // plural
+        this.users.forEach((user)=>{
+
+            console.log(user)
+
+        });
+
+
+
+        
         for (let i = 0; i < this.users.length; i++) {
             if (this.users[i].userName === userName) {
                 this.users.splice(i, 1); 
