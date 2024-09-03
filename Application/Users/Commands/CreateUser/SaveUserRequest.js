@@ -1,5 +1,4 @@
-
-class User {
+class SaveUserRequest{
     constructor(userName,password,email,address,birthday){
         this.userName = userName;
         this.password =password;
@@ -7,5 +6,7 @@ class User {
         this.address = address;
         this.birthday = birthday;
     }
-
 }
+
+
+
